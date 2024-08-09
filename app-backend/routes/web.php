@@ -14,7 +14,7 @@
 */
 
 $router->get('/', function () use ($router) {
-    return '"HR" '.$router->app->version();
+    return '"HR new repo" '.$router->app->version();
 });
 
 $router->group(['prefix' => 'api/'], function () use ($router) {
